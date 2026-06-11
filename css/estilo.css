@@ -96,3 +96,74 @@ footer{
     margin-top: 30px;
     border-top: 3px solid #00ff88;
 }
+/* MENU */
+
+nav a{
+    display: inline-block;
+}
+
+/* HEADER FIXO */
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* COMPENSA O HEADER FIXO */
+
+main{
+    padding-top: 150px;
+}
+
+/* FORMULÁRIO */
+
+form{
+    position: relative;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+input[type="submit"]{
+    background-color: #00ff88;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* TABELA */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead{
+    background-color: #00ff88;
+    color: black;
+}
+
+th, td{
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even){
+    background-color: #2a2a2a;
+}
